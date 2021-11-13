@@ -1,0 +1,9 @@
+README.rst
+setup.py
+potx/__init__.py
+potx/__main__.py
+potx.egg-info/PKG-INFO
+potx.egg-info/SOURCES.txt
+potx.egg-info/dependency_links.txt
+potx.egg-info/not-zip-safe
+potx.egg-info/top_level.txt
