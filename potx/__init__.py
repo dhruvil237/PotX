@@ -22,9 +22,9 @@ class HoneyPot(object):
     def handle_connection(self, client_socket, port, ip, remote_port):
         self.logger.info("Connection received: %s: %s:%d" % (port, ip, remote_port))
 
-        client_socket.settimeout(4)
+        client_socket.settimeout(10)
         try:
-            data = client_socket.recv(64)
+            data = client_socket.recv(4096)
             self.logger.info("Data received: %s: %s:%d: %s" % (port, ip, remote_port, data))
             client_socket.send("Access denied.\n".encode('utf8'))
         except timeout:
