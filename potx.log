@@ -1,9 +1,5 @@
-2021-11-11/14/21 09:34:11 INFO     Honeypot initializing...
-2021-11-11/14/21 09:34:11 INFO     Ports: ['7774', '7775', '7776']
-2021-11-11/14/21 09:34:11 INFO     Log filepath: potx.log
-2021-11-11/14/21 09:34:21 INFO     Connection received: 7774: 127.0.0.1:55440
-2021-11-11/14/21 09:34:25 INFO     Data received: 7774: 127.0.0.1:55440: b'hi there\n'
-2021-11-11/14/21 09:34:31 INFO     Connection received: 7775: 127.0.0.1:55442
-2021-11-11/14/21 09:34:37 INFO     Data received: 7775: 127.0.0.1:55442: b'hi its dhruvil\n'
-2021-11-11/14/21 09:34:43 INFO     Connection received: 7776: 127.0.0.1:55445
-2021-11-11/14/21 09:34:48 INFO     Data received: 7776: 127.0.0.1:55445: b'hacking you\n'
+2021-12-12/06/21 18:42:52 INFO     Honeypot initializing...
+2021-12-12/06/21 18:42:52 INFO     Ports: ['7774', '7775', '7776']
+2021-12-12/06/21 18:42:52 INFO     Log filepath: potx.log
+2021-12-12/06/21 18:43:53 INFO     Connection received: 7774: 127.0.0.1:48476
+2021-12-12/06/21 18:43:57 INFO     Data received: 7774: 127.0.0.1:48476: b'Kamardange\n'
