@@ -1,0 +1,13 @@
+[Unit]
+Description=potx honeypot
+After=network.target
+
+[Service]
+Type=simple
+User=potx
+WorkingDirectory=/home/potx
+ExecStart=/usr/bin/python3 -m potx /etc/potx.ini
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target

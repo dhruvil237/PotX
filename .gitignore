@@ -1,5 +1,5 @@
-nanopot.test.ini
-nanopot.log
+potx.test.ini
+potx.log
 ven
 *.egg-info
 dist/

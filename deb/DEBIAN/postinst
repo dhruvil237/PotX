@@ -1,0 +1,11 @@
+#!/bin/bash
+
+id -u potx &>/dev/null || useradd potx
+
+# useradd potx
+mkdir -p /home/potx
+
+/usr/bin/python3 -m pip uninstall -y potx
+/usr/bin/python3 -m pip install potx --no-cache-dir
+rm /opt/potx-1.0.0.tar.gz
+systemctl enable potx
