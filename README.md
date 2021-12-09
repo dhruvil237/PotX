@@ -8,7 +8,7 @@ This project has been hosted on pypi --> https://pypi.org/project/PotX/
 
 # Initializing honeypot
 Using python –m potx command on user’s machine
-The ports assigned to honeypot from .ini file are 7774, 7775, 7776
+The ports assigned to honeypot from .ini file are 7774, 7775, 7776 *(You can also assign other ports as per your choice)*
 
 # Checking for active ports
 netstat –q command is used to display available ports
